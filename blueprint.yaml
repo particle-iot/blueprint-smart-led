@@ -1,0 +1,19 @@
+id: particle/blueprint-smart-led
+category: tutorial
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-smart-led
+name: blueprint-smart-led
+shortDescription: Smart LED (NeoPixel, WS2812B) tutorial
+version: 1.0.0
+models: []
+language:
+  - C++
+cloudServices: []
+integrations: []
+hardwareDependencies:
+  - name: Tracker One
+    link: https://www.particle.io/tracker-one/
+  - name: Particle T-SoM Module
+    link: https://www.particle.io/tracker-som/
+description: |
+  Using smart LEDs (NeoPixel, WS2812B) with Particle devices
