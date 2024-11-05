@@ -2,8 +2,8 @@ id: particle/blueprint-smart-led
 category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-smart-led
-name: blueprint-smart-led
-shortDescription: Smart LED (NeoPixel, WS2812B) tutorial
+name: "Smart LED tutorial"
+shortDescription: Smart LED (NeoPixel, WS2812B) tutorial for Particle devices
 version: 1.0.0
 models: []
 language:
@@ -16,4 +16,8 @@ hardwareDependencies:
     tags: [ "Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
   - name: WS2812B / NeoPixels Smart LEDs
 description: |
-  Using smart LEDs (NeoPixel, WS2812B) with Particle devices
+  This tutorial demonstrates how to control NeoPixel smart LEDs (WS2812B) with Particle devices, using just a single GPIO pin to control multiple LEDs. NeoPixels can be configured to display specific colors on each pixel, supporting creative projects with flexible form factors like strips, rings, and panels.
+
+  It covers basic power and data requirements for connecting NeoPixels to Particle devices and includes code samples to get started with Particle’s Adafruit_NeoPixel library. Example code shows how to set up, control brightness, and program color patterns for NeoPixel LEDs.
+
+  Ideal for users interested in adding colorful LED displays to their Particle projects, this tutorial offers guidance on integrating and programming NeoPixel LEDs for various applications.
