@@ -1,23 +1,41 @@
 id: particle/blueprint-smart-led
-category: tutorial
-icon: particle.png
+slug: particle-blueprint-smart-led
+type: tutorial
+category: "Getting started"
+expertiseLevel: ""
+tags: ["NeoPixel"]
+icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-smart-led
 name: "Smart LED tutorial"
 shortDescription: Smart LED (NeoPixel, WS2812B) tutorial for Particle devices
 version: 1.0.0
 models: []
-language:
-  - C++
+language: ["C++"]
 cloudServices: []
 integrations: []
+supportedDevices:
+  - name: Boron
+  - name: Argon
+  - name: M-SoM, 
+  - name: Photon 2
+  - name: Muon
+  - name: Monitor One
+  - name: Tracker One
+  - name: T-SoM
+  - name: E-SoM
+  - name: P2
 hardwareDependencies:
-  - name: Particle MCU Development Board
+  - name: Supported Device
     link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
-    tags: [ "Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
   - name: WS2812B / NeoPixels Smart LEDs
+introduction: |
+  NeoPixels are individually addressable "smart" LEDs including WS2812, WS2811, and SK6812 LEDs. They work great on Particle devices!
+
 description: |
   This tutorial demonstrates how to control NeoPixel smart LEDs (WS2812B) with Particle devices, using just a single GPIO pin to control multiple LEDs. NeoPixels can be configured to display specific colors on each pixel, supporting creative projects with flexible form factors like strips, rings, and panels.
 
   It covers basic power and data requirements for connecting NeoPixels to Particle devices and includes code samples to get started with Particle’s Adafruit_NeoPixel library. Example code shows how to set up, control brightness, and program color patterns for NeoPixel LEDs.
 
   Ideal for users interested in adding colorful LED displays to their Particle projects, this tutorial offers guidance on integrating and programming NeoPixel LEDs for various applications.
+
+additionalResources:
