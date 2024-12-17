@@ -1,9 +1,8 @@
-id: particle/blueprint-smart-led
 slug: particle-blueprint-smart-led
 type: tutorial
 category: "Getting started"
-expertiseLevel: ""
-tags: ["NeoPixel"]
+expertiseLevel: "beginner"
+tags: ["led", "NeoPixel"]
 icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-smart-led
 name: "Smart LED tutorial"
