@@ -1,9 +1,9 @@
 slug: particle-blueprint-smart-led
-type: tutorial
+type: Tutorial
 category: "Getting started"
-expertiseLevel: "beginner"
-tags: ["led", "NeoPixel"]
-icon: assets/particle-logo.svg
+expertiseLevel: "Beginner"
+tags: ["Led", "NeoPixel"]
+icon: assets/smart-led-tutorial.svg
 gitrepo: https://github.com/particle-iot/blueprint-smart-led
 name: "Smart LED tutorial"
 shortDescription: Smart LED (NeoPixel, WS2812B) tutorial for Particle devices
