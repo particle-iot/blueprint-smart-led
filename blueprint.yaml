@@ -27,8 +27,8 @@ webIdeLink: https://go.particle.io/shared_apps/6761f95717af1d0533d2234b
 webSetupLink: https://setup.particle.io/?app=particle-blueprint-smart-led
 hardwareDependencies:
   - name: Supported Device
-    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
   - name: WS2812B / NeoPixels Smart LEDs
+    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
 introduction: |
   NeoPixels are individually addressable "smart" LEDs including WS2812, WS2811, and SK6812 LEDs. They work great on Particle devices!
 
