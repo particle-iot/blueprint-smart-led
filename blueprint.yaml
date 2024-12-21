@@ -6,7 +6,7 @@ tags: ["Led", "NeoPixel"]
 icon: assets/smart-led-tutorial.svg
 gitrepo: https://github.com/particle-iot/blueprint-smart-led
 name: "Smart LED tutorial"
-shortDescription: Smart LED (NeoPixel, WS2812B) tutorial for Particle devices
+shortDescription: "Smart LED (NeoPixel, WS2812B) tutorial for Particle devices."
 version: 1.0.0
 models: []
 language: ["C++"]
